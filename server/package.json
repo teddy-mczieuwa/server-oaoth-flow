@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "an oauth flow process using passport, mongo and the rest",
+  "main": "index.js",
+  "author": "Teddy McZieuwa",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
