@@ -8,8 +8,13 @@ const authRoutes = () => {
     scope: ['profile', 'email']
   }))
 
-  authRouter.route('/').get((req,res) => {
-    res.send('hello world')
+  authRouter.route('/user').get((req,res) => {
+    res.send(req.user)
+  })
+
+  authRouter.route('/logout').get((req,res) => {
+    req.logout()
+    res.send(req.user)
   })
 
   authRouter.route('/google/callback').get(passport.authenticate('google'))
