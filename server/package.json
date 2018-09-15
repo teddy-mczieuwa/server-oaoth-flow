@@ -6,6 +6,12 @@
   "author": "Teddy McZieuwa",
   "license": "MIT",
   "dependencies": {
-    "nodemon": "^1.18.4"
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "mongoose": "^5.2.14",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
   }
 }
